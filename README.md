@@ -18,9 +18,9 @@
 | fxs1559 | 0xAD7f46e65dCF9d30fC7827d72f2A1D392e0cB0D9 |
 | veDelegation | 0x8A2308371F7A405A0EA18B8f11e5239473b4F66b |
 | delegationProxy | 0x28D2571fCa0Bdb90B8F443F666015B75b82837d9 |
-| manualGaugeController | 0x951d5B0d742fA75E4934820a815cf9bCdC0d2da6 |
+| manualGaugeController | 0xae1E24c20edc3D52E7A706783dDd898937A3df90 |
 | gaugeRewardDistributor | 0x13330d982B7f024A98257037bA23f9C810586114 |
-| boostController | 0xeeA66684D6f77E486E242c9EF3Aa434eb49Fd615 |
+| boostController | 0x58fe5CF1247E2FCD00174547DBab34e7fb75fE1E |
 | kromeRewardDelegator | 0x69602Cda969091c0D86Fa75b3b59B2f81e241C03 |
 
 ### ORACLES
@@ -41,16 +41,22 @@
 | name | address |
 |------|---------|
 | Claimswap USDK-KLAY Pool | 0xc19B3652D26Deb9263aD985aA0e367015D641e68 |
-| Claimswap USDK-KLAY Reward | 0x68A0eF1B1aaaec0b42936ef8bfcD01AfF526438B |
+| Claimswap USDK-KLAY Reward | 0x15e14201D5A86d648981cCDdD1f8Fac29517050c |
 | Claimswap USDK-KUSDT Pool | 0x1D09c9f6C74a3e3cFE54f99A97211f20244a3cEb |
-| Claimswap USDK-KUSDT Reward | 0x5cDF3E6782dA06f2d7076676bdE85Be6842541B5 |
+| Claimswap USDK-KUSDT Reward | 0x6C7A68B44bB6aA4C774916654D4eE3CE4A34664A |
 | Claimswap USDK-KROME Pool | 0xcEF300dc1120845eDD26874Fe4d790868B783177 |
-| Claimswap USDK-KROME Reward | 0xB9574250167EEe4a2831f60778077Ed334816105 |
+| Claimswap USDK-KROME Reward | 0x0FFCA580690fc15fA8bE07c26bbbD2dC18f555DA |
 
 ### Pool migrator
 | name | address |
 |------|---------|
 | erc20PoolMigrator V1 | 0xB9574250167EEe4a2831f60778077Ed334816105 |
+
+## Deprecated
+| name | address |
+|------|---------|
+| manualGaugeController | 0x951d5B0d742fA75E4934820a815cf9bCdC0d2da6 |
+| boostController | 0xeeA66684D6f77E486E242c9EF3Aa434eb49Fd615 |
 
 ### Staking Pools (deprecated)
 | name | address |
@@ -61,3 +67,6 @@
 | Claimswap USDK-KUSDT Reward V1 | 0xbc6481d7Cf58dbC683e0006D15a15a018700Ee83 |
 | Claimswap USDK-KROME Pool V1 | 0x355e58ED5708De8e98e3240e4F98671170822153 |
 | Claimswap USDK-KROME Reward V1 | 0x40B1A247a91D5678B76E73f1445BE61E78494bcA |
+| Claimswap USDK-KLAY RewardV2 | 0x68A0eF1B1aaaec0b42936ef8bfcD01AfF526438B |
+| Claimswap USDK-KUSDT RewardV2 | 0x5cDF3E6782dA06f2d7076676bdE85Be6842541B5 |
+| Claimswap USDK-KROME RewardV2 | 0xB9574250167EEe4a2831f60778077Ed334816105 |
