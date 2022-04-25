@@ -11,10 +11,11 @@
 | tokenSwapHelper | 0x74e8493eE43d63b32f80cB625c19492C361Cb8cB |
 | collateralRatio | 0xf3B86B364269FFA3c74038A570a4AbF0aae950B3 |
 | usdkPool | 0x68F55EAdC923f4c456c8335bc1fa1E4ae15181F9 |
+| usdkPoolV4 | 0x8D4aBc27e7eaB29c6780e11bfCa98B631F4B7e15 |
 | amoMinter | 0x2ddEb42c3bc39B8DffB03381f5909e8C324dB49E |
 | veKROME | 0x36d83CC762F614970daeb1909141Fc5ddA9683D5 |
 | smartWalletWhitelist | 0x61d73C8B76D7E84fd7D3eA4212Dce01b0FEf0dc3 |
-| veKromeYieldDistributor | 0xAc29EAdDc6e37B7dF5133adA1a0F8119EbfFB948 |
+| veKromeYieldDistributorV5 | 0xBf3B5537cCe7Fc4a223f3F4Ee0538A75a640C9dc |
 | fxs1559 | 0xAD7f46e65dCF9d30fC7827d72f2A1D392e0cB0D9 |
 | veDelegation | 0x8A2308371F7A405A0EA18B8f11e5239473b4F66b |
 | delegationProxy | 0x28D2571fCa0Bdb90B8F443F666015B75b82837d9 |
@@ -23,6 +24,13 @@
 | boostController | 0x58fe5CF1247E2FCD00174547DBab34e7fb75fE1E |
 | kromeRewardDelegator | 0x69602Cda969091c0D86Fa75b3b59B2f81e241C03 |
 | EklipseDelegator | 0xCcb313446ef69307fbA478a5B74d0AF8Fc92D31D |
+
+### AMO
+| name | address |
+|------|---------|
+| fxs1559 | 0xAD7f46e65dCF9d30fC7827d72f2A1D392e0cB0D9 |
+| external wallet AMO USDT | 0x63Fc79C34abAA652AbC14238A6cE19Fd241499f9 |
+| external wallet for USDT | 0x2f2e92cDf069f8AF3828aB120B2379B3f3B36f7b |
 
 ### ORACLES
 | name | address |
@@ -54,13 +62,15 @@
 |------|---------|
 | erc20PoolMigrator V1 | 0xB9574250167EEe4a2831f60778077Ed334816105 |
 | erc20PoolEklipseMigrator V5 | 0xB36B3b1010A6535ca43B97C40ed90Fe5114C657F |
-| erc20MergetStageMigrator | 0x94E33005ADD640EA1fCC71a4a9960640af566857 |
+| erc20MergetStageMigratorV2 | 0xBc0334c84998778c1BfbcbC470d162732A026Fcb |
 
 ## Deprecated
 | name | address |
 |------|---------|
 | manualGaugeController | 0x951d5B0d742fA75E4934820a815cf9bCdC0d2da6 |
 | boostController | 0xeeA66684D6f77E486E242c9EF3Aa434eb49Fd615 |
+| veKromeYieldDistributorV4 | 0xAc29EAdDc6e37B7dF5133adA1a0F8119EbfFB948 |
+| erc20MergetStageMigratorV1 | 0x94E33005ADD640EA1fCC71a4a9960640af566857 |
 
 ### Staking Pools (deprecated)
 | name | address |
