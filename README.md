@@ -10,9 +10,9 @@
 | timelock | 0x2c9498dcDaaEC707837f0d8f67c443d743D240D9 |
 | tokenSwapHelper | 0x74e8493eE43d63b32f80cB625c19492C361Cb8cB |
 | collateralRatio | 0xf3B86B364269FFA3c74038A570a4AbF0aae950B3 |
-| usdkPool | 0x68F55EAdC923f4c456c8335bc1fa1E4ae15181F9 |
-| usdkPoolV4 | 0x8D4aBc27e7eaB29c6780e11bfCa98B631F4B7e15 |
-| amoMinter | 0x2ddEb42c3bc39B8DffB03381f5909e8C324dB49E |
+| usdkPool(V5) | 0x575ec8a3737512A9Dc408522539915Aa86BbDaE9 |
+| amoMinterRegistry | 0x0f4A616bE05D0F28bA724bFE80a64062E2aa262A |
+| amoMinter(V2) | 0x50e27146675B2c48620dBAAbC501c5a302A173DE |
 | veKROME | 0x36d83CC762F614970daeb1909141Fc5ddA9683D5 |
 | smartWalletWhitelist | 0x61d73C8B76D7E84fd7D3eA4212Dce01b0FEf0dc3 |
 | veKromeYieldDistributorV5 | 0xBf3B5537cCe7Fc4a223f3F4Ee0538A75a640C9dc |
@@ -30,7 +30,7 @@
 |------|---------|
 | fxs1559 | 0xAD7f46e65dCF9d30fC7827d72f2A1D392e0cB0D9 |
 | external wallet AMO USDT | 0x63Fc79C34abAA652AbC14238A6cE19Fd241499f9 |
-| external wallet for USDT | 0x2f2e92cDf069f8AF3828aB120B2379B3f3B36f7b |
+| external wallet for USDT (not contract) | 0x2f2e92cDf069f8AF3828aB120B2379B3f3B36f7b |
 
 ### ORACLES
 | name | address |
@@ -71,6 +71,9 @@
 | boostController | 0xeeA66684D6f77E486E242c9EF3Aa434eb49Fd615 |
 | veKromeYieldDistributorV4 | 0xAc29EAdDc6e37B7dF5133adA1a0F8119EbfFB948 |
 | erc20MergetStageMigratorV1 | 0x94E33005ADD640EA1fCC71a4a9960640af566857 |
+| usdkPoolV3 | 0x68F55EAdC923f4c456c8335bc1fa1E4ae15181F9 |
+| usdkPoolV4 | 0x8D4aBc27e7eaB29c6780e11bfCa98B631F4B7e15 |
+| amoMinterV1 | 0x2ddEb42c3bc39B8DffB03381f5909e8C324dB49E |
 
 ### Staking Pools (deprecated)
 | name | address |
