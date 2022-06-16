@@ -23,6 +23,7 @@
 | gaugeRewardDistributor | 0x13330d982B7f024A98257037bA23f9C810586114 |
 | boostController | 0x58fe5CF1247E2FCD00174547DBab34e7fb75fE1E |
 | kromeRewardDelegator | 0x69602Cda969091c0D86Fa75b3b59B2f81e241C03 |
+| kromeRewardDelegatorV2 | 0x69602Cda969091c0D86Fa75b3b59B2f81e241C03 |
 | EklipseDelegator | 0xCcb313446ef69307fbA478a5B74d0AF8Fc92D31D |
 
 ### AMO
@@ -44,6 +45,7 @@
 |------|---------|
 | Claimswap USDK-KLAY | 0x433db089d5237748ee19d06b29372deb67108353 |
 | Claimswap USDK-KROME | 0x5f9942e8769591e7a2a18f6728ff128d6a08723d |
+| Kokonutswap USDK-4NUT | 0x0fd58c80fbb9728093c1ea041fcfd3ee723ff696 |
 | Eklipse USDK-3Moon | 0xc4ACf4ddd4838E9A727cCDb75ae62Af1706a7173 |
 | Claimswap USDK-KUSDT(deprecated) | 0x1437459e1f932d86ee97ab2dfac058fa0a60769c |
 
@@ -52,17 +54,20 @@
 |------|---------|
 | Claimswap USDK-KLAY Pool | 0xc19B3652D26Deb9263aD985aA0e367015D641e68 |
 | Claimswap USDK-KLAY Reward | 0x15e14201D5A86d648981cCDdD1f8Fac29517050c |
-| Claimswap USDK-3Moon Pool | 0xEb5DFaDa43BC492aCa2D74071fDe686CB4Ef27f9 |
-| Claimswap USDK-3Moon Reward | 0xa200e9876AA6EBd405777B211ca8C7011BA41c95 |
+| Claimswap USDK-4NUT Pool | 0xC88DBf0a0d446271F1957de75fCdD561D71A7738 |
+| Claimswap USDK-4NUT Reward | 0xe282b656Fc45415487D20B8cFB0D68ad692c77D0 |
 | Claimswap USDK-KROME Pool | 0xcEF300dc1120845eDD26874Fe4d790868B783177 |
 | Claimswap USDK-KROME Reward | 0x0FFCA580690fc15fA8bE07c26bbbD2dC18f555DA |
+| Claimswap USDK-3Moon Pool | 0xEb5DFaDa43BC492aCa2D74071fDe686CB4Ef27f9 |
+| Claimswap USDK-3Moon Reward | 0xa200e9876AA6EBd405777B211ca8C7011BA41c95 |
 
 ### Pool migrator
 | name | address |
 |------|---------|
 | erc20PoolMigrator V1 | 0xB9574250167EEe4a2831f60778077Ed334816105 |
-| erc20PoolEklipseMigrator V5 | 0xB36B3b1010A6535ca43B97C40ed90Fe5114C657F |
 | erc20MergetStageMigratorV2 | 0xBc0334c84998778c1BfbcbC470d162732A026Fcb |
+| 3MoonTo4NutMigrator V5 | 0x9F2470308400542a451fd2e697baC4d6c1a6e7E3 |
+| erc20PoolEklipseMigrator V5 | 0xB36B3b1010A6535ca43B97C40ed90Fe5114C657F |
 
 ## Deprecated
 | name | address |
