@@ -23,7 +23,7 @@
 | gaugeRewardDistributor | 0x13330d982B7f024A98257037bA23f9C810586114 |
 | boostController | 0x58fe5CF1247E2FCD00174547DBab34e7fb75fE1E |
 | kromeRewardDelegator | 0x69602Cda969091c0D86Fa75b3b59B2f81e241C03 |
-| kromeRewardDelegatorV2 | 0x69602Cda969091c0D86Fa75b3b59B2f81e241C03 |
+| kromeRewardDelegatorV2 | 0xd424737Af0F5aE445EE5deca39d997C374571ECc |
 | EklipseDelegator | 0xCcb313446ef69307fbA478a5B74d0AF8Fc92D31D |
 
 ### AMO
