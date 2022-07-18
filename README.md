@@ -45,9 +45,9 @@
 |------|---------|----------|
 | Claimswap USDK-KLAY | 0x433db089d5237748ee19d06b29372deb67108353 | (external contract) |
 | Claimswap USDK-KROME | 0x5f9942e8769591e7a2a18f6728ff128d6a08723d | (external contract) |
-| Kokonutswap USDK-4NUT | 0x0fd58c80fbb9728093c1ea041fcfd3ee723ff696 | (external contrac)t |
-| Eklipse USDK-3Moon | 0xc4ACf4ddd4838E9A727cCDb75ae62Af1706a7173 | (external contrac)t |
-| Claimswap USDK-KUSDT(deprecated) | 0x1437459e1f932d86ee97ab2dfac058fa0a60769c | (external contrac)t |
+| Kokonutswap USDK-4NUT | 0x0fd58c80fbb9728093c1ea041fcfd3ee723ff696 | (external contract) |
+| Eklipse USDK-3Moon | 0xc4ACf4ddd4838E9A727cCDb75ae62Af1706a7173 | (external contract) |
+| Claimswap USDK-KUSDT(deprecated) | 0x1437459e1f932d86ee97ab2dfac058fa0a60769c | (external contract) |
 
 ### Staking Pools Beacons
 | name | address | contract |
