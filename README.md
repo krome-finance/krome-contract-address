@@ -88,15 +88,15 @@
 | Merge stake migrator (old) | 0x94E33005ADD640EA1fCC71a4a9960640af566857 | MergeStakeMigratorV2 |
 
 ### Pool migrator
-| name | address |
-|------|---------|
+| name | address | contract |
+|------|---------|----------|
 | erc20PoolMigrator V1 | 0xB9574250167EEe4a2831f60778077Ed334816105 | MigratorTreasury_ERC20 |
 | 3MoonTo4NutMigrator V5 | 0x9F2470308400542a451fd2e697baC4d6c1a6e7E3 | MigratorTreasury_3MoonToI4I |
 | erc20PoolEklipseMigrator V5 | 0xB36B3b1010A6535ca43B97C40ed90Fe5114C657F | MigratorTreasury_USDT2Eklipse |
 
 ## Deprecated
-| name | address |
-|------|---------|
+| name | address | contract |
+|------|---------|----------|
 | manualGaugeController | 0x951d5B0d742fA75E4934820a815cf9bCdC0d2da6 | ManualGaugeController |
 | boostController | 0xeeA66684D6f77E486E242c9EF3Aa434eb49Fd615 | StakingBoostControler |
 | veKromeYieldDistributorV4 | 0xAc29EAdDc6e37B7dF5133adA1a0F8119EbfFB948 | veKromeYieldDistributorV4 |
@@ -106,8 +106,8 @@
 | amoMinterV1 | 0x2ddEb42c3bc39B8DffB03381f5909e8C324dB49E | UsdkAMOMinter |
 
 ### Staking Pools (deprecated)
-| name | address |
-|------|---------|
+| name | address | contract |
+|------|---------|----------|
 | Claimswap USDK-KLAY Pool V1 | 0x33FFF28cFDaBbd6De09635E51aCEF4382A1c1795 | TreasuryUsdkUniswapPair |
 | Claimswap USDK-KLAY Reward V1 | 0x8CA15EC4b22f49C3E484A0d71B08396bD914FAc0 | StakingRewardComptroller |
 | Claimswap USDK-KUSDT Pool V1 | 0x2707B65afc08e8E1c02472f5D8b735b4dd8Dd1d0 | TreasuryUsdkUniswapPair |
