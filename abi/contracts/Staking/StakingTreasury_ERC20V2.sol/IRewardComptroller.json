@@ -1,0 +1,51 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "rewardee",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "destination_address",
+        "type": "address"
+      }
+    ],
+    "name": "collectRewardFor",
+    "outputs": [
+      {
+        "internalType": "uint256[]",
+        "name": "",
+        "type": "uint256[]"
+      }
+    ],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "sync",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "account",
+        "type": "address"
+      },
+      {
+        "internalType": "bool",
+        "name": "sync_too",
+        "type": "bool"
+      }
+    ],
+    "name": "updateRewardAndBalance",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

@@ -1,0 +1,43 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "account",
+        "type": "address"
+      }
+    ],
+    "name": "veMultipliers",
+    "outputs": [
+      {
+        "components": [
+          {
+            "internalType": "uint256",
+            "name": "multiplier",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "dslope",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "staytime",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "timestamp",
+            "type": "uint256"
+          }
+        ],
+        "internalType": "struct VeKromeMultiplier",
+        "name": "",
+        "type": "tuple"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]

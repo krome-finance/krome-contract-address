@@ -1,0 +1,15 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "reward_amount",
+        "type": "uint256"
+      }
+    ],
+    "name": "pullAndBridge",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

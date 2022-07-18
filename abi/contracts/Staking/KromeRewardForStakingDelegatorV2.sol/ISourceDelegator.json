@@ -1,0 +1,157 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      },
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "name": "collected",
+    "outputs": [
+      {
+        "components": [
+          {
+            "internalType": "uint256",
+            "name": "i",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bool",
+            "name": "withdrawn",
+            "type": "bool"
+          },
+          {
+            "internalType": "uint256",
+            "name": "krome_amount",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "collectTime",
+            "type": "uint256"
+          }
+        ],
+        "internalType": "struct Reward",
+        "name": "",
+        "type": "tuple"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "account",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "farm",
+        "type": "address"
+      }
+    ],
+    "name": "collectedRewardsLength",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "account",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "farm",
+        "type": "address"
+      },
+      {
+        "internalType": "uint256",
+        "name": "start",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "length",
+        "type": "uint256"
+      }
+    ],
+    "name": "collectedRewardsPage",
+    "outputs": [
+      {
+        "components": [
+          {
+            "internalType": "uint256",
+            "name": "i",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bool",
+            "name": "withdrawn",
+            "type": "bool"
+          },
+          {
+            "internalType": "uint256",
+            "name": "krome_amount",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "collectTime",
+            "type": "uint256"
+          }
+        ],
+        "internalType": "struct Reward[]",
+        "name": "",
+        "type": "tuple[]"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "name": "next_withdraw_index",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]

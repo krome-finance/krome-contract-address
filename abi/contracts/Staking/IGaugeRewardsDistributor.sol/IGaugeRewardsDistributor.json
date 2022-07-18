@@ -1,0 +1,26 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "gauge_address",
+        "type": "address"
+      }
+    ],
+    "name": "distributeReward",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "weeks_elapsed",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "reward_tally",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

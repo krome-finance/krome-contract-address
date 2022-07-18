@@ -1,0 +1,87 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "secs",
+        "type": "uint256"
+      }
+    ],
+    "name": "lockMultiplier",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "lock_time_for_max_multiplier",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "stakedUsdk",
+        "type": "uint256"
+      }
+    ],
+    "name": "minVeKromeForMaxBoost",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "account",
+        "type": "address"
+      },
+      {
+        "internalType": "uint256",
+        "name": "stakedUsdk",
+        "type": "uint256"
+      }
+    ],
+    "name": "veKromeMultiplier",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "vekrome_multiplier",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "slope",
+        "type": "uint256"
+      },
+      {
+        "internalType": "uint256",
+        "name": "stay_time",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]
