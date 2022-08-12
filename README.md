@@ -66,6 +66,18 @@
 | Claimswap USDK-KROME Reward | 0x0FFCA580690fc15fA8bE07c26bbbD2dC18f555DA | StakingRewardComptrollerV3 |
 | Claimswap USDK-3Moon Pool | 0xEb5DFaDa43BC492aCa2D74071fDe686CB4Ef27f9 |TreasuryUsdkEklipsePool |
 | Claimswap USDK-3Moon Reward | 0xa200e9876AA6EBd405777B211ca8C7011BA41c95 | StakingRewardComptrollerV3 |
+| 0swap USDK-KLAY Pool | 0xcC2FD0E90518Bcf7012DE61D990EEE67cA1C869a | TreasuryUsdkUniswapPairV5 |
+| 0swap USDK-KLAY Reward | 0x64498f1123ecA478180d80a38E1BecA41a461bcf | StakingRewardComptrollerV4 |
+| 0swap USDK-oETH Pool | 0x9cD94901200fAb0aCbc19B5F30AffC4042B7E726 | TreasuryUsdkUniswapPairV5 |
+| 0swap USDK-oETH Reward | 0x0C0D9B237Cfd12B559BE2148bF6f0fBbc6D59C87 | StakingRewardComptrollerV4 |
+| 0swap USDK-WEMIX Pool | 0x7A4F2ECe08e92cd66b8738201742b2948B46ef4a | TreasuryUsdkUniswapPairV5 |
+| 0swap USDK-WEMIX Reward | 0xdee6E1A8e14F1a0b9d445CcEa4AD5a3E6C9EC6C4 | StakingRewardComptrollerV4 |
+| 0swap USDK-oXRP Pool | 0x72D0D5692630F6c2E1174C670685beEAAfc8d028 | TreasuryUsdkUniswapPairV5 |
+| 0swap USDK-oXRP Reward | 0x462AFB2DC8745Dab51eC38eAcf5d61139fb74a3B | StakingRewardComptrollerV4 |
+| 0swap USDK-oWBTC Pool | 0x3b59A9429f2b806040d74571Dc66E5bA4267C7b7 | TreasuryUsdkUniswapPairV5 |
+| 0swap USDK-oWBTC Reward | 0xf4608BE22F54c174f15EcE3c76523e05F03e7EB1 | StakingRewardComptrollerV4 |
+| 0swap USDK-KROME Pool | 0x96c07b7101fCbED9051A12d30Cd43FDE02cd4b1E | TreasuryUsdkUniswapPairV5 |
+| 0swap USDK-KROME Reward | 0x4E939C19F906363B0Ac4d05Cbfe1A78C58518819 | BeaconProxy<br />0x472Fbc7b143F25CfAE21771cb011a07580bfFdcf |
 
 ### LP Migration
 | name | address | contract |
@@ -93,6 +105,8 @@
 | erc20PoolMigrator V1 | 0xB9574250167EEe4a2831f60778077Ed334816105 | MigratorTreasury_ERC20 |
 | 3MoonTo4NutMigrator V5 | 0x9F2470308400542a451fd2e697baC4d6c1a6e7E3 | MigratorTreasury_3MoonToI4I |
 | erc20PoolEklipseMigrator V5 | 0xB36B3b1010A6535ca43B97C40ed90Fe5114C657F | MigratorTreasury_USDT2Eklipse |
+| claUsdkKlayMigrator | 0xB36B3b1010A6535ca43B97C40ed90Fe5114C657F  | MigratorTreasury_MigratedLP |
+| claUsdkKromeMigrator | 0x6ea635D7E5Bf89c262527c5E1461f1Ef2c167043 | MigratorTreasury_MigratedLP |
 
 ## Deprecated
 | name | address | contract |
