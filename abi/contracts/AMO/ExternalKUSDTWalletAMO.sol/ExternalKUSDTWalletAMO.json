@@ -141,19 +141,6 @@
     "type": "function"
   },
   {
-    "inputs": [],
-    "name": "MISSING_PRECISION",
-    "outputs": [
-      {
-        "internalType": "uint256",
-        "name": "",
-        "type": "uint256"
-      }
-    ],
-    "stateMutability": "view",
-    "type": "function"
-  },
-  {
     "inputs": [
       {
         "internalType": "address",
@@ -213,6 +200,29 @@
       }
     ],
     "name": "addKokoaBond",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "lp_address",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "swap_pool",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "staking",
+        "type": "address"
+      }
+    ],
+    "name": "addKokonutPool",
     "outputs": [],
     "stateMutability": "nonpayable",
     "type": "function"
@@ -344,6 +354,19 @@
         "internalType": "struct ExternalKUSDTWalletAMO.BridgedValue[]",
         "name": "values",
         "type": "tuple[]"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "dKSD_address",
+    "outputs": [
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
       }
     ],
     "stateMutability": "view",
@@ -599,6 +622,36 @@
   },
   {
     "inputs": [],
+    "name": "getKokonutPools",
+    "outputs": [
+      {
+        "components": [
+          {
+            "internalType": "address",
+            "name": "lp_address",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "swap_pool",
+            "type": "address"
+          },
+          {
+            "internalType": "address",
+            "name": "staking",
+            "type": "address"
+          }
+        ],
+        "internalType": "struct ExternalKUSDTWalletAMO.KokonutPool[]",
+        "name": "",
+        "type": "tuple[]"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
     "name": "getStableTokens",
     "outputs": [
       {
@@ -845,6 +898,99 @@
     "type": "function"
   },
   {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "name": "kokonut_pools",
+    "outputs": [
+      {
+        "internalType": "address",
+        "name": "lp_address",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "swap_pool",
+        "type": "address"
+      },
+      {
+        "internalType": "address",
+        "name": "staking",
+        "type": "address"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "kokonut_pools_length",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "kokonut_value",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "value",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "kokonut_value_stored",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "kokonut_values",
+    "outputs": [
+      {
+        "components": [
+          {
+            "internalType": "address",
+            "name": "lp_address",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "amount",
+            "type": "uint256"
+          }
+        ],
+        "internalType": "struct ExternalKUSDTWalletAMO.KokonutValue[]",
+        "name": "values",
+        "type": "tuple[]"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
     "inputs": [],
     "name": "local_manager_address",
     "outputs": [
@@ -975,6 +1121,19 @@
     "inputs": [
       {
         "internalType": "address",
+        "name": "lp_address",
+        "type": "address"
+      }
+    ],
+    "name": "removeKokonutPool",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
         "name": "token",
         "type": "address"
       }
@@ -1031,6 +1190,19 @@
   {
     "inputs": [
       {
+        "internalType": "uint256",
+        "name": "amount",
+        "type": "uint256"
+      }
+    ],
+    "name": "setBorrowedCollat",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
         "internalType": "bytes32",
         "name": "_where",
         "type": "bytes32"
@@ -1042,6 +1214,19 @@
       }
     ],
     "name": "setBridgedValue",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "_dksd_address",
+        "type": "address"
+      }
+    ],
+    "name": "setDepositedKSD",
     "outputs": [],
     "stateMutability": "nonpayable",
     "type": "function"
@@ -1081,6 +1266,19 @@
       }
     ],
     "name": "setLocator",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "amount",
+        "type": "uint256"
+      }
+    ],
+    "name": "setReturnedCollat",
     "outputs": [],
     "stateMutability": "nonpayable",
     "type": "function"

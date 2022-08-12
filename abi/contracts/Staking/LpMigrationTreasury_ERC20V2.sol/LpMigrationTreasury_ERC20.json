@@ -529,7 +529,7 @@
         "type": "uint256"
       }
     ],
-    "stateMutability": "pure",
+    "stateMutability": "view",
     "type": "function"
   },
   {
@@ -575,39 +575,6 @@
       }
     ],
     "stateMutability": "view",
-    "type": "function"
-  },
-  {
-    "inputs": [
-      {
-        "internalType": "address",
-        "name": "_locator_address",
-        "type": "address"
-      },
-      {
-        "internalType": "address",
-        "name": "_staking_boost_controller",
-        "type": "address"
-      },
-      {
-        "internalType": "address",
-        "name": "_staking_token",
-        "type": "address"
-      },
-      {
-        "internalType": "uint256",
-        "name": "_closed_at",
-        "type": "uint256"
-      },
-      {
-        "internalType": "uint256",
-        "name": "_lockend",
-        "type": "uint256"
-      }
-    ],
-    "name": "initialize",
-    "outputs": [],
-    "stateMutability": "nonpayable",
     "type": "function"
   },
   {
@@ -1060,19 +1027,6 @@
   {
     "inputs": [
       {
-        "internalType": "uint256",
-        "name": "timestamp",
-        "type": "uint256"
-      }
-    ],
-    "name": "setClosedAt",
-    "outputs": [],
-    "stateMutability": "nonpayable",
-    "type": "function"
-  },
-  {
-    "inputs": [
-      {
         "internalType": "address",
         "name": "_delegator_address",
         "type": "address"
@@ -1397,7 +1351,7 @@
         "type": "uint256"
       }
     ],
-    "stateMutability": "pure",
+    "stateMutability": "view",
     "type": "function"
   },
   {
